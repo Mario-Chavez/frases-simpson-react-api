@@ -28,8 +28,8 @@ function App() {
     <>
     <Container>
       <img src={logo} alt="logo simpson" className='w-50'/>
-     <Frase personaje={personaje} />
-     <Button variant='danger'>Obtener frase</Button>
+      <Frase personaje={personaje} />
+      <Button variant='danger' onClick={consultarApi}>Obtener frase</Button>
     </Container>
     </>
   )

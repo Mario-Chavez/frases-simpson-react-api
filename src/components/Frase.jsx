@@ -4,9 +4,9 @@ import { Card, Spinner } from 'react-bootstrap';
 const Frase = ({personaje}) => {
     return (
         <section>
-             <Spinner animation="border" role="status">
+             {/* <Spinner animation="border" role="status">
                <span className="visually-hidden">Loading...</span>
-             </Spinner>
+             </Spinner> */}
             <h1>{personaje.character}</h1>
             <hr/>
             <img src={personaje.image} alt="" />
